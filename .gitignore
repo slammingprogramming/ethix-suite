@@ -1,0 +1,38 @@
+# Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules (if you don't want to track dependencies)
+go.sum
+
+# Vendor directory (if using vendoring for dependencies)
+vendor/
+
+# VS Code configuration files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-specific and editor-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+*~
+._*
